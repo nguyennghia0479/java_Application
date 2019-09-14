@@ -95,7 +95,7 @@ public class Product {
 		System.out.println("Taxes: " + calculatorTaxesProduct(this.price));
 	}
 
-	public Float calculatorTaxesProduct(Float price) {
+	private Float calculatorTaxesProduct(Float price) {
 		return (float) (price * 0.1);
 	}
 }
